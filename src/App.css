@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.containter {
+  margin: 10%;
+  margin-top: 3%;
+}
+
+.slide-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  grid-gap: 1rem;
+  grid-auto-flow: row;
+}
+
+.grid-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  grid-gap: 1rem;
+}
